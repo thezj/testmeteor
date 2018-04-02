@@ -5,7 +5,7 @@ import React from "react"
 import {
   render
 } from 'react-dom'
-
+import '../imports/startup/accounts-config'
 import App from '../imports/ui/App'
 
 Meteor.startup(_ => {
